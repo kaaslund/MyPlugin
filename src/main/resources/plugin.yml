@@ -1,0 +1,6 @@
+name: MyPlugin
+main: com.blacksky.myplugin.MyPlugin
+version: $project.version
+commands:
+    hello:
+        description: Our first command!
