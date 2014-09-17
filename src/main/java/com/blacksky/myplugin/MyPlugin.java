@@ -26,7 +26,7 @@ public class MyPlugin extends JavaPlugin {
     @Override
     public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
         if (cmd.getName().equalsIgnoreCase("hello")) {
-            sender.sendMessage("world");
+            sender.sendMessage("world" );
         }
 
         return false;
